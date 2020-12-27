@@ -10,15 +10,21 @@
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./styles.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+      <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
 </head>
 
 <body>
   <nav class="navbar navbar-expand-lg custom-navbar">
     <div class="container-fluid">
-      <button class="navbar-toggler mx-auto mx-md-1" type="button" data-bs-toggle="collapse"
+      <button class="navbar-toggler mx-auto mx-md-1 " type="button" data-bs-toggle="collapse"
         data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
         aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
+        <span class="material-icons text-white">
+          menu
+          </span>
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
@@ -43,9 +49,12 @@
   </nav>
 
   <div class="hero">
-    <div class="headline mx-auto text-center pt-3">
-      <span class="text-1">Josua & Desy </span><br>
-      <span class="text-2">We are getting maried </span><br>
+    <div class="headline mx-auto text-center text-white pt-3">
+      <div data-aos="fade-up">
+        <span class="text-1">Josua & Desy </span><br>
+        <span class="text-2">We are getting maried </span><br>
+
+      </div>
 
 
     </div>
@@ -64,7 +73,7 @@
 
     <div class="section couple">
       <div class="row justify-content-center">
-        <div class="col-12 col-md-3 text-center">
+        <div class="col-12 col-md-3 text-center" data-aos="fade-right">
           <div class="avatar">
             <img src="./assets/ava-1.jpg" alt="">
           </div>
@@ -76,7 +85,7 @@
             Ibu Ruslan br. Tambunan <br> (Op. Hana)
           </p>
         </div>
-        <div class="col-12 col-md-3 text-center">
+        <div class="col-12 col-md-3 text-center" data-aos="fade-left">
           <div class="avatar">
             <img src="./assets/ava-2.jpg" alt="">
           </div>
@@ -94,14 +103,14 @@
   </div>
   <div class="section date bg-dark px-3 text-white " id="theDay">
     <div class="text-center margin-auto">
-      <h3 class="mb-3 text-dark text-dmserif">The Date</h3>
+      <h3 class="mb-3 text-dark title">The Date</h3>
     </div>
     <div class="row justify-content-center px-5">
       <div class="col-12 col-md-5 text-center bg-white-tsp p-2 text-dark">
         <h6 class="text-lora">Pemberkatan</h6>
         <b>GEREJA HKBP TAMPUBOLON</b>
         <p>Sibolahotangsas Balige <br> Kabupaten Toba, Sumatera Utara <br>
-          <h5 class="text-vibes">Tuesday, 29-12-2020 <br> 09.00 WIB - selesai</h5>
+          <h5 class="text-vibes">Tuesday, 29-12-2020 <br> 10.00 WIB - selesai</h5>
         </p>
       </div>
 
@@ -109,7 +118,7 @@
         <h6 class="text-lora">RESEPSI</h6>
         <b>GEDUNG SERBAGUNA GEREJA HKBP TAMPUBOLON</b>
         <p>Sibolahotangsas Balige <br> Kabupaten Toba, Sumatera Utara <br>
-          <h5 class="text-vibes">Tuesday, 29-12-2020 <br> 09.00 WIB - selesai</h5>
+          <h5 class="text-vibes">Tuesday, 29-12-2020 <br> 10.00 WIB - selesai</h5>
         </p>
 
       </div>
@@ -119,7 +128,7 @@
 
   <div class="section place" id="loc">
     <div class="text-center margin-auto">
-      <h3 class="mb-3 text-dark text-dmserif">Location</h3>
+      <h3 class="mb-3 text-dark title">Location</h3>
     </div>
     <div class="text-center">
       <p>Sibolahotangsas Balige <br> Kabupaten Toba, Sumatera Utara</p>
@@ -130,10 +139,27 @@
     </a>
   </div>
 
-  <div class="section place" id="loc">
-</div>
+  <div class="section moment" id="loc">
+    <div class="text-center margin-auto">
+      <h3 class="mb-3 text-dark title">Moment</h3>
+    </div>
+  </div>
+
+  <div class="section closing" id="loc">
+    <div class="text-center margin-auto">
+      <h3 class="mb-3 text-dark title">Moment</h3>
+    </div>
+    <div class="text-center">
+    <p>Merupakan suatu kebahagiaan bagi kami apabila Bapak/Ibu/Saudara/i berkenan hadir untuk memberikan doa restu kepada kami.</p>
+
+    </div>
+  </div>
 
   <script src="bootstrap/js/bootstrap.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 
 </html>
