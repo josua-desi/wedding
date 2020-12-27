@@ -3,6 +3,7 @@
 @import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap");
 body {
   font-family: "Lora", serif;
+  color: #747476;
 }
 
 .navbar {
@@ -81,6 +82,11 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+}
+@media (min-width: 768px) {
+  .couple-verse {
+    padding: 3rem 0;
+  }
 }
 
 .avatar {

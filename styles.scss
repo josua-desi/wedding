@@ -2,17 +2,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
 
-body{
+body {
   font-family: 'Lora', serif;
-
+  color: #747476;
 }
 
 .navbar {
   position: absolute;
   width: 100%;
-  
 
-  .nav-link{
+
+  .nav-link {
     color: white;
   }
 }
@@ -59,9 +59,9 @@ body{
   @media (max-width: 768px) {
     padding-top: 3rem;
     height: 35rem;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position-y: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: 0;
 
   }
 
@@ -98,6 +98,12 @@ body{
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+
+  @media (min-width: 768px) {
+    padding: 3rem 0;
+
+  }
+
 }
 
 .avatar {
@@ -136,34 +142,34 @@ body{
   font-family: 'Lora', serif;
 }
 
-.text-dmserif{
+.text-dmserif {
   font-family: 'DM Serif Display', serif;
 }
 
-.bg-white-tsp{
-  background-color: rgb(255 255 255 / 89%)!important;
+.bg-white-tsp {
+  background-color: rgb(255 255 255 / 89%) !important;
   border-radius: 4px;
 }
 
-.title{
+.title {
   font-family: 'Great Vibes', cursive;
   font-size: 2rem;
 }
 
-.place{
-  img{
+.place {
+  img {
     width: 100%;
     cursor: pointer;
   }
 }
 
-.moment{
-  img{
+.moment {
+  img {
     width: 100%;
   }
 
-  .row{
-    .div{
+  .row {
+    .div {
       padding: 10px;
     }
   }
