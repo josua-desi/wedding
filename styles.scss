@@ -1,14 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
 
 @media (max-width: 768px) {
   .navbar {
     position: fixed;
     width: 100%;
 
-    .navbar-collapse.collapse.show{
+    .navbar-collapse.collapse.show {
       background-color: #fff;
       margin-top: 1rem;
-      border-radius: 4px;;
+      border-radius: 4px;
+      ;
     }
   }
 }
@@ -58,37 +60,60 @@
   }
 }
 
-.verse{
+.verse {
   padding: 2rem .5rem;
   font-family: 'Lora', serif;
   font-size: 14px;
-  p{
+
+  p {
     margin-bottom: 0;
   }
 }
 
-.avatar{
+.couple-verse {
+  background-image: url(./assets/bg-marble.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.avatar {
   text-align: center;
-  img{
+
+  img {
     height: 100px;
     width: 100px;
     border-radius: 50%;
     object-fit: cover;
   }
- 
+
 }
 
-.ava-text{
+.ava-text {
   font-size: 1.5rem;
-  font-family: 'Dancing Script',cursive;
-  +p{
+  font-family: 'Dancing Script', cursive;
+
+  +p {
     font-size: 14px;
   }
 }
 
-.date{
+.date {
   background-image: url(./assets/bg-3.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+}
+
+.text-vibes {
+  font-family: 'Great Vibes', cursive;
+}
+
+.text-lora {
+  font-family: 'Lora', serif;
+}
+
+.bg-white-tsp{
+  background-color: rgb(255 255 255 / 89%)!important;
+  border-radius: 4px;
 }
