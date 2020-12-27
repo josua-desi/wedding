@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
 
 @media (max-width: 768px) {
   .navbar {
@@ -61,7 +62,7 @@
 }
 
 .verse {
-  padding: 2rem .5rem;
+  padding: 2rem .5rem 0;
   font-family: 'Lora', serif;
   font-size: 14px;
 
@@ -113,7 +114,17 @@
   font-family: 'Lora', serif;
 }
 
+.text-dmserif{
+  font-family: 'DM Serif Display', serif;
+}
+
 .bg-white-tsp{
   background-color: rgb(255 255 255 / 89%)!important;
   border-radius: 4px;
+}
+
+.place{
+  img{
+    width: 100%;
+  }
 }
