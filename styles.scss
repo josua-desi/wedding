@@ -13,7 +13,10 @@ body {
 
 
   .nav-link {
-    color: white;
+    color: #fff;
+    @media (max-width: 768px) {
+      color: #000;
+    }
   }
 }
 
@@ -26,7 +29,7 @@ body {
       background-color: #fff;
       margin-top: 1rem;
       border-radius: 4px;
-      ;
+      z-index: 9;
     }
   }
 }
@@ -101,7 +104,6 @@ body {
 
   @media (min-width: 768px) {
     padding: 3rem 0;
-
   }
 
 }
@@ -173,4 +175,10 @@ body {
       padding: 10px;
     }
   }
+}
+
+.btn-sound{
+  position: sticky;
+  left: 16px;
+  bottom: 16px;
 }

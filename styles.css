@@ -11,7 +11,12 @@ body {
   width: 100%;
 }
 .navbar .nav-link {
-  color: white;
+  color: #fff;
+}
+@media (max-width: 768px) {
+  .navbar .nav-link {
+    color: #000;
+  }
 }
 
 @media (max-width: 768px) {
@@ -23,6 +28,7 @@ body {
     background-color: #fff;
     margin-top: 1rem;
     border-radius: 4px;
+    z-index: 9;
   }
 }
 .custom-navbar {
@@ -146,6 +152,12 @@ body {
 }
 .moment .row .div {
   padding: 10px;
+}
+
+.btn-sound {
+  position: sticky;
+  left: 16px;
+  bottom: 16px;
 }
 
 /*# sourceMappingURL=styles.css.map */
