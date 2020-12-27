@@ -1,37 +1,94 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
 
-.custom-navbar{
-  background-color: transparent;
-  .navbar-toggler-icon{
-    color: black;
-  }
+@media (max-width: 768px) {
+  .navbar {
+    position: fixed;
+    width: 100%;
 
-  .nav-link{
-    @media (max-width: 768px) {
-    text-align: center;
-      
+    .navbar-collapse.collapse.show{
+      background-color: #fff;
+      margin-top: 1rem;
+      border-radius: 4px;;
     }
   }
 }
 
-.section{
+.custom-navbar {
+  background-color: transparent;
+
+  .navbar-toggler-icon {
+    color: black;
+  }
+
+  .nav-link {
+    @media (max-width: 768px) {
+      text-align: center;
+    }
+  }
+}
+
+.section {
   padding: 3rem 0;
 }
 
-.hero{
+.hero {
   height: 400px;
   background-image: url(./assets/wed-1.jpg);
   background-size: cover;
-  img{
+
+  @media (max-width: 768px) {
+    padding-top: 3rem;
+  }
+
+
+  img {
     width: 100%;
   }
 
-  .text-1{
+  .text-1 {
+
+
     font-size: 2.3rem;
-    font-family: 'Dancing Script', cursive;
+    font-family: 'Dancing Script',
+      cursive;
   }
 
-  .text-2{
+  .text-2 {
     font-family: 'Lora', serif;
   }
+}
+
+.verse{
+  padding: 2rem .5rem;
+  font-family: 'Lora', serif;
+  font-size: 14px;
+  p{
+    margin-bottom: 0;
+  }
+}
+
+.avatar{
+  text-align: center;
+  img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+ 
+}
+
+.ava-text{
+  font-size: 1.5rem;
+  font-family: 'Dancing Script',cursive;
+  +p{
+    font-size: 14px;
+  }
+}
+
+.date{
+  background-image: url(./assets/bg-3.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }

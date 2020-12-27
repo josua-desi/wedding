@@ -1,4 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Lora&display=swap");
+@media (max-width: 768px) {
+  .navbar {
+    position: fixed;
+    width: 100%;
+  }
+  .navbar .navbar-collapse.collapse.show {
+    background-color: #fff;
+    margin-top: 1rem;
+    border-radius: 4px;
+  }
+}
 .custom-navbar {
   background-color: transparent;
 }
@@ -20,6 +31,11 @@
   background-image: url(./assets/wed-1.jpg);
   background-size: cover;
 }
+@media (max-width: 768px) {
+  .hero {
+    padding-top: 3rem;
+  }
+}
 .hero img {
   width: 100%;
 }
@@ -29,6 +45,40 @@
 }
 .hero .text-2 {
   font-family: "Lora", serif;
+}
+
+.verse {
+  padding: 2rem 0.5rem;
+  font-family: "Lora", serif;
+  font-size: 14px;
+}
+.verse p {
+  margin-bottom: 0;
+}
+
+.avatar {
+  text-align: center;
+}
+.avatar img {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.ava-text {
+  font-size: 1.5rem;
+  font-family: "Dancing Script", cursive;
+}
+.ava-text + p {
+  font-size: 14px;
+}
+
+.date {
+  background-image: url(./assets/bg-3.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 /*# sourceMappingURL=styles.css.map */
